@@ -3,4 +3,3 @@ dist/
 *.js
 *.js.map
 *.d.ts
-# !src/**/*.d.ts
