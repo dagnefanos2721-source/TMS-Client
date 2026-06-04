@@ -18,7 +18,7 @@ function processStudent(raw: unknown) {
     const gpaDisplay = raw.gpa?.toFixed(2) ?? "Not yet graded";
     console.log(`Student ${raw.name} GPA: ${gpaDisplay}`);
   } else {
-    console.error("Invalid student data received");
+    console.error("Invalid student data received so check it");
   }
 }
 
